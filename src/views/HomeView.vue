@@ -3,13 +3,13 @@
 
 <div  class="d-flex justify-content-center">
   <b-card no-body class="overflow-hidden" style="max-width: 600px;">
-    <b-row no-gutters>
-     
+    <b-row no-gutters> 
       <b-col >
-        <b-card-body title="Horizontal Card">
+        <b-card-img src="image.png" alt="Image" class="rounded-circle"></b-card-img>
+        <b-card-body title="DIDI ABDELLAH">
           <b-card-text>
-            This is a wider card with supporting text as a natural lead-in to additional content.
-            This content is a little bit longer.
+            anesthésiologie <br/>
+            Tanger , Morocco
           </b-card-text>
         </b-card-body>
       </b-col>
@@ -32,6 +32,7 @@
 // // @ is an alias to /src
 import calendar from '../components/calendar.vue'
 import day from '../components/day.vue'
+// import imageUrl from '@/assets/image.png';
 
 export default {
   name: 'HomeView',
@@ -54,6 +55,7 @@ this.Cday=data
 ,
   mounted() {
 //  console.log('Cday : \n ',this.Cday) 
+// console.log('Image URL:', imageUrl);
 },
  
 
